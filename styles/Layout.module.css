@@ -1,0 +1,50 @@
+/* for phone */
+@media only screen and (max-width: 599px) {
+    .content {
+        padding: 152px 16px 56px;
+    }
+    
+}
+
+/* for tablet portrait up */
+@media only screen and (min-width: 600px) {
+    .content {
+        padding: 40% 16px 25%;
+        padding: 152px 32px 152px;
+    }
+}
+
+/* for tablet landscape up */
+@media only screen and (min-width: 900px) {
+    .content {
+        width: 800px;
+        padding: 144px 32px 56px;
+        margin: 0 auto;
+    }
+}
+
+/* for desktop up */
+@media only screen and (min-width: 1200px) {
+    .content {
+        width: 800px;
+        margin: 0 auto;
+        padding: 196px 32px 272px;
+    }
+}
+
+/* for large desktop up */
+@media only screen and (min-width: 1800px) {
+    .content {
+        width: 1000px;
+        margin: 0 auto;
+        padding: 196px 32px 272px;
+    }
+}
+
+@media only screen and (min-width: 2000px) {
+    .content {
+        width: 1800px;
+        margin: 0 auto;
+        padding: 12vw 2vw 17vw;
+    }
+}

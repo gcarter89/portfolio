@@ -1,0 +1,62 @@
+.logo {
+    position: absolute;
+    top: 25px;
+    left: 30px;
+    width: 56px;
+    height: 56px;
+    border: 2px solid black;
+}
+
+.nav {
+    position: absolute;
+    top: 25px;
+    right: 30px;
+}
+
+.navList {
+    list-style: none;
+    display: inline-flex;
+}
+
+.navListItem {
+    margin-left: 3vw;
+    font-weight: 300;
+}
+
+@media only screen and (max-width: 599px) {}
+
+@media only screen and (min-width: 600px) {
+    .logo {
+        height: 64px;
+        width: 64px;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .logo {
+        height: 72px;
+        width: 72px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {}
+
+@media only screen and (min-width: 1800px) {
+    .logo {
+        height: 88px;
+        width: 88px;
+    }
+}
+
+@media only screen and (min-width: 2000px) {
+    .nav {
+        top: 50px;
+        right: 60px;
+    }
+    .logo {
+        top: 50px;
+        left: 60px;
+        height: 160px;
+        width: 160px;
+    }
+}
