@@ -6,7 +6,7 @@ export default function Logo() {
     return (
         <Link href="/">
             <a className={styles.logo}>
-                <Image src="/logoDark.png" alt="logo" layout="fill" priority='true' />
+                <Image src="/logoDark.png" alt="logo" layout="fill" priority={true} />
             </a>
         </Link>
     )
