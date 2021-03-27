@@ -28,7 +28,7 @@
     .content {
         width: 800px;
         margin: 0 auto;
-        padding: 196px 32px 272px;
+        padding: 196px 32px 0;
     }
 }
 

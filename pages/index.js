@@ -1,17 +1,27 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-import Layout from '../components/Layout';
+import Head from 'next/head';
 import Link from 'next/link';
+import styles from '../styles/Home.module.css';
+import Layout from '../components/Layout';
+
 
 export default function Home() {
   return (
-    <Layout>
-      <h1 className={styles.name}>gareth carter</h1>
-      <h2 className={styles.title}>web developer</h2>
-      <p className={styles.text}>creating engaging and accessible applications that live on the internet</p>
-        <div className={styles.cta}>
-          <Link href="/about"><p className={styles.ctaAnchor}>interested?</p></Link>
-        </div>
-    </Layout>
+    <>
+      <Head>
+        <title>home | gareth carter</title>
+        <meta name="Description" content="Home page for portfolio website" />
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <link rel="icon" href="/logoLight.png" />
+      </Head>
+      <Layout>
+        <h1 className={styles.name}>gareth carter</h1>
+        <h2 className={styles.title}>web developer</h2>
+        <p className={styles.text}>creating engaging applications that live on the internet</p>
+          <div className={styles.cta}>
+            <Link href="/about"><p className={styles.ctaLink}>¿interested?</p></Link>
+          </div>
+      </Layout>
+    </>
   )
 }

@@ -19,13 +19,19 @@
 }
 
 .cta {
+  display: flex;
+  justify-content: center;
   text-align: center;
   color: #4284F4;
 
 }
 
-.ctaAnchor {
+.ctaLink {
   text-align: center;
   width: fit-content;
   cursor: help;
+  margin: 0;
+  padding: 8px;
+  border: 1px solid #4284F4;
 }
+
