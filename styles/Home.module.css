@@ -38,7 +38,7 @@
   margin: 0;
   padding: 8px 16px 8px 16px;
   border: 2px solid #4284F4;
-  font-weight: 400;
+  font-weight: 400 !important;
   letter-spacing: 0.08ch
 }
 
