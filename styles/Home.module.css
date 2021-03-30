@@ -1,9 +1,9 @@
 .name {
   font-size: 4rem;
   text-align: center;
-  font-weight: 200;
+  font-weight: 300;
   letter-spacing: 0.05ch;
-  margin-bottom: 0.3rem;
+  margin-bottom: 4px;
   line-height: 1;
 }
 
@@ -12,11 +12,15 @@
   font-weight: 300;
   text-align: center;
   margin: 0;
+  margin-bottom: 8px;
 }
 
 .text {
-  font-weight: 200;
+  font-weight: 300;
   text-align: center;
+  letter-spacing: 0.04ch;
+  margin-bottom: 16px;
+  margin-top: 16px;
 }
 
 .cta {
@@ -35,6 +39,7 @@
   padding: 8px 16px 8px 16px;
   border: 2px solid #4284F4;
   font-weight: 400;
+  letter-spacing: 0.08ch
 }
 
 @media screen and (min-width: 900px) {
