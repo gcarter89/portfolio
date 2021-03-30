@@ -14,10 +14,8 @@ export default function Work() {
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
                 <link rel="icon" href="/logoLight.png" />
             </Head>
-            {/* <Layout> */}
                 <h1 className={styles.heading}>Selected projects.</h1>
                 <h3><Link href="/portfolio">portfolio</Link></h3>
-            {/* </Layout> */}
         </>
     )
 }

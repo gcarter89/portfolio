@@ -14,7 +14,6 @@ export default function Contact() {
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
                 <link rel="icon" href="/logoLight.png" />
             </Head>
-            {/* <Layout> */}
                 <h1 className={styles.heading}>Say hi.</h1>
                 <div className={styles.imageContainer}>
                     <Image
@@ -23,7 +22,6 @@ export default function Contact() {
                         layout="fill"
                         priority={true} />
                 </div>
-            {/* </Layout> */}
         </>
     )
 

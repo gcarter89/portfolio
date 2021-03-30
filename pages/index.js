@@ -5,6 +5,7 @@ import Layout from '../components/Layout';
 
 
 export default function Home() {
+
   return (
     <>
       <Head>
@@ -14,14 +15,14 @@ export default function Home() {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link rel="icon" href="/logoLight.png" />
       </Head>
-      {/* <Layout> */}
+      <div className={styles.container}>
         <h1 className={styles.name}>gareth carter</h1>
         <h2 className={styles.title}>web developer</h2>
         <p className={styles.text}>creating engaging applications that live on the internet</p>
           <div className={styles.cta}>
-            <Link href="/about"><p className={styles.ctaLink}>¿interested?</p></Link>
+            <Link href="/about"><p className={styles.ctaLink}>interested?</p></Link>
           </div>
-      {/* </Layout> */}
+      </div>
     </>
   )
 }

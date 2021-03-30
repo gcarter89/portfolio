@@ -25,7 +25,7 @@ body {
   background-color: #fcfbf7;
   padding: 0;
   margin: 0;
-  font-family: ff-zwo-web-pro, sans-serif;
+  font-family: gill-sans-nova, Helvetica;
 }
 
 a {
@@ -39,10 +39,12 @@ a {
 
 h1 {
   font-size: 2rem;
+  font-weight: 500;
 }
 
 h2 {
   font-size: 1.5rem;
+  font-weight: 400;
 }
 
 h3 {
@@ -52,7 +54,7 @@ h3 {
 p {
   font-weight: 300;
   font-size: 1rem;
-  line-height: 1.5;
+  line-height: 1.4;
 }
 
 

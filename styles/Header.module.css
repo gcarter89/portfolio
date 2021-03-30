@@ -8,6 +8,9 @@
 }
 
 .nav {
+    display: flex;
+    height: 56px;
+    align-items: center;
     position: absolute;
     top: 25px;
     right: 30px;
@@ -23,12 +26,30 @@
     font-weight: 300;
 }
 
-@media only screen and (max-width: 599px) {}
+@media only screen and (max-width: 599px) {
+    .logo {
+        left: 14px;
+    }
+
+    .nav {
+        right: 14px;
+    }
+
+    .navListItem {
+        margin-left: 8vw;
+    }
+    
+}
 
 @media only screen and (min-width: 600px) {
     .logo {
+        left: 14px;
         height: 64px;
         width: 64px;
+    }
+    
+    .nav {
+        right: 14px;
     }
 }
 

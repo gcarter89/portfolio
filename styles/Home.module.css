@@ -3,7 +3,8 @@
   text-align: center;
   font-weight: 200;
   letter-spacing: 0.05ch;
-  margin-bottom: 0.3rem
+  margin-bottom: 0.3rem;
+  line-height: 1;
 }
 
 .title {
@@ -35,3 +36,19 @@
   border: 1px solid #4284F4;
 }
 
+@media screen and (min-width: 900px) {
+  .container {
+    padding-top: 10%;
+  }
+}
+
+@media screen and (max-width: 900px) and (orientation: landscape) {
+  .container {
+    padding-top: 0;
+    margin-top: -48px;
+  }
+  
+  .name {
+    font-size: 3rem;
+  }
+ }
