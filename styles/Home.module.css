@@ -51,4 +51,12 @@
   .name {
     font-size: 3rem;
   }
+
+  .title {
+    font-size: 1.33rem;
+  }
+
+  .text {
+    font-size: 0.75rem;
+  }
  }
