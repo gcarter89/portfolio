@@ -23,8 +23,30 @@
 
 .navListItem {
     margin-left: 3vw;
-    font-weight: 300;
+    font-weight: 400;
+    color: #4284F4;
+    border-bottom: 2px solid transparent;
+    transition: color .2s ease-out, border-bottom-color .2s ease-out;
 }
+
+/* .navListItem::before {
+    content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.navListItem:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+  } */
+
 
 @media only screen and (max-width: 599px) {
     .logo {
@@ -60,7 +82,16 @@
     }
 }
 
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+    .logo {
+        top: 32px;
+        left: 40px;
+    }
+    .nav {
+        top: 32px;
+        right: 40px;
+    }
+}
 
 @media only screen and (min-width: 1800px) {
     .logo {
