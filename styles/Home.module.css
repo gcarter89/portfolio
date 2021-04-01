@@ -50,6 +50,12 @@
   background-color: #4284F4;
 }
 
+@media screen and (max-width: 350px) {
+  .container {
+    margin-top: -48px;
+  }
+}
+
 @media screen and (min-width: 900px) {
   .container {
     padding-top: 10%;
