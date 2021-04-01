@@ -17,10 +17,10 @@ export default function Home() {
       </Head>
       <div className={styles.container}>
         <h1 className={styles.name}>gareth carter</h1>
-        <h2 className={styles.title}>web developer</h2>
+        <h2 className={styles.title}>junior web developer</h2>
         <p className={styles.text}>creating engaging applications that live on the internet</p>
           <div className={styles.cta}>
-            <Link href="/about"><p className={styles.ctaLink}>interested?</p></Link>
+            <Link href="/about"><a className={styles.ctaLink}>interested?</a></Link>
           </div>
       </div>
     </>
