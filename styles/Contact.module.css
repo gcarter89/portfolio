@@ -4,6 +4,19 @@
 
 .imageContainer {
     position: relative;
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
+}
+
+.link {
+    color: #4284F4;
+    text-decoration: underline #4284F4;
+    font-weight: 400;
+    text-underline-offset: 4px;
+    transition: color .2s ease-out, text-decoration-color .2s ease-out;
+}
+
+.link:hover {
+    color: #37A852;
+    text-decoration-color: #37A852;
 }

@@ -15,7 +15,7 @@ export default function Work() {
                 <link rel="icon" href="/logoLight.png" />
             </Head>
                 <h1 className={styles.heading}>Selected projects.</h1>
-                <h3><Link href="/portfolio">portfolio</Link></h3>
+                <h2><Link href="/portfolio">Portfolio</Link></h2>
         </>
     )
 }

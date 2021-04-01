@@ -14,14 +14,17 @@ export default function Contact() {
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
                 <link rel="icon" href="/logoLight.png" />
             </Head>
-                <h1 className={styles.heading}>Say hi.</h1>
-                <div className={styles.imageContainer}>
-                    <Image
-                        src="/profilePicture.jpg"
-                        alt="Picture of me"
-                        layout="fill"
-                        priority={true} />
-                </div>
+            <h1 className={styles.heading}>Say hi.</h1>
+            <div className={styles.imageContainer}>
+                <Image
+                    src="/profilePicture.jpg"
+                    alt="Profile picture"
+                    layout="fill"
+                    priority={true} 
+                />
+            </div>
+            <p>Interested in collaborating with me on a project? Or perhaps looking to employ me for a position in your company? Feel free to <a className={styles.link} href="mailto:gareth.carter@outlook.com?subject=Hi!">get in touch</a>.</p>
+            <p>I can also be found on <a className={styles.link} href="https://github.com/gcarter89" target="_blank">Github</a> and <a className={styles.link} href="https://linkedin.com/in/gcarter89/" target="_blank">LinkedIn</a>.</p>
         </>
     )
 

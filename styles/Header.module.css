@@ -29,6 +29,10 @@
     transition: color .2s ease-out, border-bottom-color .2s ease-out;
 }
 
+.navListItem:hover {
+    color: #37A852;
+}
+
 /* .navListItem::before {
     content: "";
   position: absolute;
