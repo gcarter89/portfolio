@@ -1,4 +1,3 @@
-// import Layout from '../components/Layout'
 import styles from '../styles/About.module.css'
 import Head from 'next/head';
 import Image from 'next/image';
