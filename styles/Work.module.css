@@ -6,5 +6,16 @@
     opacity: 0.4;
 }
 
-.imageContainer {
+.list {
+    display: block;
+}
+
+.listItem {
+    display: inline-block;
+    margin-right: 8px;
+    background-color: #4383F4;
+    padding: 2px 12px 4px 12px;
+    border-radius: 8px;
+    color: #FCFBF7;
+    font-size: 0.8rem;
 }
