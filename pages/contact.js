@@ -22,7 +22,7 @@ export default function Contact() {
                 />
             </div> */}
             <p>Have you got a question? Or perhaps you're interested in collaborating with me on a project? Feel free to <a className={styles.link} href="mailto:gareth.carter@outlook.com?subject=Hi!">get in touch</a>.</p>
-            <p>I can also be found on <a className={styles.link} href="https://github.com/gcarter89" target="_blank">Github</a> and <a className={styles.link} href="https://linkedin.com/in/gcarter89/" target="_blank">LinkedIn</a>.</p>
+            <p>I can also be found on <a className={styles.link} href="https://github.com/gcarter89" target="_blank" rel="noreferrer">Github</a> and <a className={styles.link} href="https://linkedin.com/in/gcarter89/" target="_blank" rel="noreferrer">LinkedIn</a>.</p>
         </>
     )
 
