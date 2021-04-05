@@ -2,12 +2,24 @@
     color: #4284F4;
 }
 
+.projectLink {
+    width: fit-content;
+    color: #4284F4;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    transition: color 0.2s ease-out;
+}
+
+.projectLink:hover {
+    color: black;
+}
+
 .subheading {
-    opacity: 0.4;
+    opacity: 0.6;
 }
 
 .list {
-    display: block;
+    display: contents;
 }
 
 .listItem {
@@ -18,5 +30,4 @@
     border-radius: 8px;
     color: #FCFBF7;
     font-size: 0.8rem;
-    font-weight: 600;
 }

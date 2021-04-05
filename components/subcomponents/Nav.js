@@ -16,7 +16,7 @@ export default function Nav() {
                         <a>about</a>
                     </Link>
                 </li>
-                <li className={styles.navListItem} style={router.pathname == "/work" ? style : null}>
+                <li className={styles.navListItem} style={router.pathname.includes("/work") ? style : null}>
                     <Link href="/work">
                         <a>work</a>
                     </Link>
