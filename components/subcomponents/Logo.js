@@ -8,7 +8,7 @@ export default function Logo() {
         backgroundColor: 'transparent'
     }
 
-    const [hover, setHover] = useState(false);
+    const [hover, setHover] = useState(true);
 
     function colourChange() {
         setHover(false);
