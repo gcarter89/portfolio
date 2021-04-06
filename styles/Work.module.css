@@ -31,3 +31,17 @@
     color: #FCFBF7;
     font-size: 0.8rem;
 }
+
+.link {
+    cursor: pointer;
+    color: #4284F4;
+    font-weight: 400;
+    text-decoration: underline #4284F4;
+    text-underline-offset: 4px;
+    transition: color .2s ease-out, text-decoration-color .2s ease-out;
+}
+
+.link:hover {
+    color: black;
+    text-decoration-color: black;
+}
