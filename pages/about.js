@@ -10,7 +10,7 @@ export default function About() {
                 <meta name="Description" content="About page for portfolio website" />
                 <meta charSet="utf-8" />
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-                <link rel="icon" href="/logoLight.png" />
+                <link rel="icon" href="/favicon.png" />
             </Head>
                 <h1 className={styles.heading}>Hello.</h1>
                 <p>My name is Gareth Carter, and I’m a web developer based in London.</p>

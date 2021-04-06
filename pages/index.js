@@ -13,7 +13,7 @@ export default function Home() {
         <meta name="Description" content="Home page for portfolio website" />
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <link rel="icon" href="/logoLight.png" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
       <div className={styles.container}>
         <h1 className={styles.name}>gareth carter</h1>

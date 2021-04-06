@@ -14,7 +14,7 @@ export default function Portfolio() {
             <meta name="Description" content="Page describing a particular web development project"/>
             <meta charSet="utf-8" />
             <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-            <link rel="icon" href="/logoLight.png" />
+            <link rel="icon" href="/favicon.png" />
         </Head>
             <h1 className={styles.heading}>Portfolio.</h1>
                 <Image

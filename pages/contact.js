@@ -10,7 +10,7 @@ export default function Contact() {
                 <meta name="Description" content="Contact page for portfolio website"/>
                 <meta charSet="utf-8" />
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-                <link rel="icon" href="/logoLight.png" />
+                <link rel="icon" href="/favicon.png" />
             </Head>
             <h1 className={styles.heading}>Say hi.</h1>
             {/* <div className={styles.imageContainer}>
