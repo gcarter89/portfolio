@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image'
 import styles from '../../styles/Header.module.css'
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 export default function Logo() {
     let style = {
@@ -10,12 +10,12 @@ export default function Logo() {
 
     const [hover, setHover] = useState(false);
 
-    function colourShuffle() {
-        setHover(true);
+    function colourChange() {
+        setHover(false);
     }
 
     function colourReset() {
-        setHover(false);
+        setHover(true);
     }
 
 
@@ -24,7 +24,7 @@ export default function Logo() {
 
     return (
         <Link href="/">
-            <a onMouseEnter={colourShuffle} onMouseLeave={colourReset} className={hover ? `${styles.logo} ${styles.logoActive}` : styles.logo} style={style}>
+            <a onMouseEnter={colourChange} onMouseLeave={colourReset} className={hover ? `${styles.logo} ${styles.logoActive}` : styles.logo} style={style}>
                 <Image className={hover ? styles.imageActive : null} src="/logoDark.png" alt="logo" layout="fill" priority={true}/>
             </a>
         </Link>
