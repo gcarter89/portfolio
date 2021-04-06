@@ -18,6 +18,14 @@
     opacity: 0.6;
 }
 
+.subheading:first-of-type {
+    margin-bottom: 16px;
+}
+
+.subheading:not(:first-of-type) {
+    margin-bottom: -8px;
+}
+
 .list {
     display: contents;
 }
