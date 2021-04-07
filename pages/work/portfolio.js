@@ -2,13 +2,18 @@ import styles from '../../styles/Work.module.css';
 import Head from 'next/head';
 import Link from 'next/link';
 import Image from 'next/image';
+import { motion } from 'framer-motion'
 
 export default function Portfolio() {
     const style = {
         fontWeight: 400
     }
     return (
-        <>
+        <motion.div
+            initial={{opacity: 0}}
+            animate={{opacity: 1}}
+            exit={{opacity: 0}}
+        >
         <Head>
             <title>portfolio | gareth carter</title>
             <meta name="Description" content="Page describing a particular web development project"/>
@@ -41,6 +46,6 @@ export default function Portfolio() {
             <p>On the design front, I decided to prioritise function over form.</p>
             <p>The colour scheme forms the foundation for the website—composed of off-white, black and blue. Off-white was used to accentuate space on the page, whereas black and blue were employed to differentiate text and image according to function or emphasis.</p>
             <p>Building on the colour scheme, I opted for a clean font that evokes familiarity: Gill Sans is a typographical homage to the Johnston typeface—which is associated with London Underground’s signage. Aside from being a call-back to the city where I live, I wanted the font to be simply, clean and geometric—in accord with the overarching theme of the website.</p>
-    </>
+    </motion.div>
     )
 }
