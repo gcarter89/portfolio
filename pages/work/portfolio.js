@@ -28,7 +28,8 @@ export default function Portfolio() {
                     layout="responsive"
                     height="57%"
                     width="100%"
-                    priority={true} 
+                    priority
+                    loading="eager"
                 />
             <h2 className={styles.subheading}>Technologies used</h2>
             <ul className={styles.list}>
