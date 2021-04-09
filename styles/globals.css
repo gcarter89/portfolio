@@ -17,7 +17,7 @@ html {
 } */
 
 @media only screen and (min-width: 1800px) {
-  html {font-size: 64px;}
+  html {font-size: 32px;}
 }
 
 html,
