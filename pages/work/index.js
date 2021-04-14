@@ -25,6 +25,11 @@ export default function Work() {
                         Portfolio
                     </Link>
                 </h2>
+                <h2 className={styles.projectLink}>
+                    <Link href="work/allezAPI">
+                        AllezAPI
+                    </Link>
+                </h2>
         </motion.div>
     )
 }
