@@ -15,7 +15,7 @@ export default function AllezAPI() {
             exit={{opacity: 0}}
         >
         <Head>
-            <title>portfolio | gareth carter</title>
+            <title>allezAPI | gareth carter</title>
             <meta name="Description" content="Page describing a particular web development project"/>
             <meta charSet="utf-8" />
             <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -23,8 +23,8 @@ export default function AllezAPI() {
         </Head>
             <h1 className={styles.heading}>AllezAPI.</h1>
                 <Image
-                    src="/portfolio.png"
-                    alt="Mock ups of portfolio website for laptop and mobile"
+                    src="/AllezAPI.png"
+                    alt="Header image with AllezAPI logo"
                     layout="responsive"
                     height="57%"
                     width="100%"
@@ -33,20 +33,28 @@ export default function AllezAPI() {
                 />
             <h2 className={styles.subheading}>Technologies used</h2>
             <ul className={styles.list}>
-                <li className={styles.listItem}>React</li>
+                <li className={styles.listItem}>Node</li>
+                <li className={styles.listItem}>PostgreSQL</li>
                 <li className={styles.listItem}>NextJS</li>
-                <li className={styles.listItem}>JavaScript</li>
+                <li className={styles.listItem}>AWS</li>
+                <li className={styles.listItem}>Prisma</li>
             </ul>
             <h2 className={styles.subheading}>Summary</h2>
-            <p>My portfolio website <em>had</em> to be included as an example of my work because it exemplifies my approach to web development: <span style={style}>simple done well</span>. I wanted to convey this clearly in the technical and design decisions taken to create the application.</p>
-            <a href="https://github.com/gcarter89/portfolio" target="_blank" rel="noreferrer" className={styles.link}>View Repository »</a>
+            <p>AllezAPI combines three of my passions: web development, road cycling and trivia. AllezAPI is an easy-to-use API organised around REST: it utilises aggregated data relating to the Tour de France. In its current form, the dataset is composed of the following:</p>
+            <ul>
+                <li><p>Every edition of the Tour de France since the inaugural race in 1903 with reference to riders who have won a classification competition.</p></li>
+                <li><p>Every rider who has won a classification competition, and the year(s) in which they were won by that specific rider.</p></li>
+            </ul>
+            <p>In terms of future development, I will be introducing data on individual stages for each edition of the Tour de France in the next iteration.</p>
+            <p><a href="https://github.com/gcarter89/allezAPI" target="_blank" rel="noreferrer" className={styles.link}>View Repository & Documentation »</a></p>
+            <Link href="../api/tours">
+                <a target="_blank" className={styles.link}>Check it out »</a>
+            </Link>
             <h2 className={styles.subheading}>Technical</h2>
-            <p>I chose React to build the frontend of this application because it simplifies the process of building interactive, data-driven UI with its component-based approach. Being able to implement logic for discrete UI components across my application without directly manipulating the DOM made for a better developer experience.</p>
-            <p>As I look to the future, I believe React will furnish me with the flexibility to further develop this application. In future iterations, I will be looking to incorporate a more data-driven frontend—gradually implementing APIs and CMS. Currently, I think React will make it easier for me—from a developer experience perspective—to imbricate the frontend with data.</p>
-            <h2 className={styles.subheading}>Design</h2>
-            <p>On the design front, I decided to prioritise function over form.</p>
-            <p>The colour scheme forms the foundation for the website—composed of off-white, black and blue. Off-white was used to accentuate space on the page, whereas black and blue were employed to differentiate text and image according to function or emphasis.</p>
-            <p>Building on the colour scheme, I opted for a clean font that evokes familiarity: Gill Sans is a typographical homage to the Johnston typeface—which is associated with London Underground’s signage. Aside from being a call-back to the city where I live, I wanted the font to be simply, clean and geometric—in accord with the overarching theme of the website.</p>
+            <p>Given my recent work with JavaScript frameworks, I wanted to implement my API using a JavaScript library-based ORM: therefore, I decided to use Prisma which works well with Node and NextJS.</p>
+            <p>With my experience using Ruby-on-Rails and its ORM, ActiveRecord—I found it easy to implement a schema and a set of queries for my postgreSQL database. Moreover, in order to get more experience with industry standard web services, I also decided to use AWS to host my postgreSQL database.</p>
+            <p>This iteration of AllezAPI is split into two specific RESTful endpoints (riders and tours). These URLs provide comprehensive access to the dataset. The information is returned to the client in a JSON format.</p> 
+            <p>Currently, no API key is necessary to access these endpoints, and no pagination is required—although this may change as the API becomes more complex and resource intensive.</p>
     </motion.div>
     )
 }
