@@ -50,11 +50,12 @@ export default function AllezPI() {
             <Link href="../api/tours">
                 <a target="_blank" className={styles.link}>Check it out »</a>
             </Link>
-            <h2 className={styles.subheading}>Technical</h2>
-            <p>Given my recent work with JavaScript frameworks, I wanted to implement my API using a JavaScript library-based ORM: therefore, I decided to use Prisma which works well with Node and NextJS.</p>
-            <p>With my experience using Ruby-on-Rails and its ORM, ActiveRecord—I found it easy to implement a schema and a set of queries for my postgreSQL database. Moreover, in order to get more experience with industry standard web services, I also decided to use AWS to host my postgreSQL database.</p>
+            <h2 className={styles.subheading}>Features</h2>
             <p>This iteration of AllezPI is split into two specific RESTful endpoints (riders and tours). These URLs provide comprehensive access to the dataset. The information is returned to the client in a JSON format.</p> 
             <p>Currently, no API key is necessary to access these endpoints, and no pagination is required—although this may change as the API becomes more complex and resource intensive.</p>
+            <h2 className={styles.subheading}>Technical</h2>
+            <p>Given my recent work with JavaScript frameworks, I wanted to implement my API using a JavaScript library-based ORM: therefore, I decided to use Prisma which works well with Node and NextJS.</p>
+            <p>With my experience using Ruby-on-Rails and its ORM, ActiveRecord—I found it easy to implement a schema and a set of queries for my relational postgreSQL database. Moreover, in order to get more experience with industry standard web services, I also decided to use AWS to host my postgreSQL database.</p>
     </motion.div>
     )
 }
