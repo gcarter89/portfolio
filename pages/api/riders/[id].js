@@ -7,17 +7,17 @@ export default async (request, response) => {
             id: parseInt(request.query.id)
         },
         include: {
+            gcWins: {
+                select: {
+                    year: true
+                }
+            },
             komWins: {
                 select: {
                     year: true
                 }
             },
             pointsWins: {
-                select: {
-                    year: true
-                }
-            },
-            gcWins: {
                 select: {
                     year: true
                 }
@@ -39,5 +39,10 @@ export default async (request, response) => {
             }
         }
     })
-    response.status(200).json(rider);
+
+    for (let field in rider) {
+        rider[field] = rider[field].length === 0 ? undefined : rider[field];
+    }
+    
+    response.status(200).json(rider)
 }
