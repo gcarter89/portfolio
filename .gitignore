@@ -1,3 +1,5 @@
 node_modules/
 .env
 seeds/
+.next/
+.DS_Store
