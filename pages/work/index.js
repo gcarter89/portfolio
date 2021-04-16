@@ -26,8 +26,8 @@ export default function Work() {
                     </Link>
                 </h2>
                 <h2 className={styles.projectLink}>
-                    <Link href="work/allezAPI">
-                        AllezAPI
+                    <Link href="work/allezpi">
+                        AllezPI
                     </Link>
                 </h2>
         </motion.div>
