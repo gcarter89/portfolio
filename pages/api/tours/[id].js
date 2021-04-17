@@ -7,5 +7,8 @@ export default async (request, response) => {
             id: parseInt(request.query.id)
         },
     })
+    for (let field in tour) {
+        tour[field] = tour[field] === null ? undefined : tour[field];
+    }
     response.status(200).json(tour);
 }
