@@ -13,7 +13,7 @@ export default async (request, response) => {
                         pointsWins: true,
                         intSprintWins: true,
                         youngRiderWins: true,
-                        combinationWins: trsfue
+                        combinationWins: true
                     }
                 }
             }
@@ -30,7 +30,6 @@ export default async (request, response) => {
         response.status(200).json(riders);
         
     } catch (error) {
-        // response.status(500).send('Internal Server Error');
         console.error(error)
         throw error;
         
