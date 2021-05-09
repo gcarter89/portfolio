@@ -28,8 +28,7 @@ export default function AllezPI() {
                     layout="responsive"
                     height="57%"
                     width="100%"
-                    priority
-                    loading="eager"
+                    priority={true}
                 />
             <h2 className={styles.subheading}>Technologies used</h2>
             <ul className={styles.list}>
