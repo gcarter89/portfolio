@@ -45,7 +45,7 @@ export default function Portfolio() {
             <h2 className={styles.subheading}>Design</h2>
             <p>On the design front, I decided to prioritise function over form.</p>
             <p>The colour scheme forms the foundation for the website—composed of off-white, black and blue. Off-white was used to accentuate space on the page, whereas black and blue were employed to differentiate text and image according to function or emphasis.</p>
-            <p>Building on the colour scheme, I opted for a clean font that evokes familiarity: Gill Sans is a typographical homage to the Johnston typeface—which is associated with London Underground’s signage. Aside from being a call-back to the city where I live, I wanted the font to be simply, clean and geometric—in accord with the overarching theme of the website.</p>
+            <p>Building on the colour scheme, I opted for a clean font that evokes familiarity: Gill Sans is a typographical homage to the Johnston typeface—which is associated with London Underground’s signage. Aside from being a call-back to the city where I live, I wanted the font to be simple, clean and geometric—in accord with the overarching theme of the website.</p>
     </motion.div>
     )
 }
